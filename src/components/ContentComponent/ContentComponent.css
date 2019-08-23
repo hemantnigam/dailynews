@@ -44,3 +44,8 @@
     justify-content: center;
   }
 }
+@media screen and (min-width: 411px) {
+    .container ul li img{
+        width: 100%;
+      }
+  }
