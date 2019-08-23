@@ -1,0 +1,46 @@
+.container {
+  padding: 20px;
+}
+.container ul li img {
+  height: 170px;
+  width: 300px;
+}
+.container ul {
+  list-style-type: none;
+  margin-right: 40px;
+}
+.container ul li {
+  display: flex;
+  padding: 20px 20px;
+  margin-bottom: 25px;
+  box-shadow: 0px 5px 15px #cccccc;
+}
+.description {
+  padding: 0 20px;
+}
+.articleTitle {
+  font-size: 25px;
+}
+.content {
+  font-size: 14px;
+  margin: 20px 0px;
+}
+@media screen and (max-width: 700px) {
+  .container ul li {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .description {
+    margin: 20px 0px;
+  }
+  .image {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 975px) and (min-width: 700px) {
+  .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
